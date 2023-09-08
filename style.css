@@ -1,0 +1,194 @@
+
+* {
+    box-sizing:border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(59, 57, 57);
+}
+html, body{
+    background-color: rgb(255, 245, 231);
+    margin: 0;
+    padding: 0;
+}
+.nav ul {
+    margin: 0;
+}
+.nav li {
+    display: inline;
+}
+.nav a {
+display: inline-block;
+padding: .5em;
+color:rgb(63, 63, 62);
+text-decoration: none;
+}
+.main-nav {
+text-align: center;
+font-size: 1.1em;
+font-weight: lighter;
+border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+.main-nav li {
+    padding: 0.5%;
+}
+
+.nav a:hover{
+    background-color: rgb(169, 213, 199);
+}
+.main-header{
+    background-color:rgba(240, 233, 218, 0.851) ;
+    background-image: url(backgroundd.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+.shop-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+    color: rgb(78, 68, 68);
+}
+.shop-name-large {
+    font-size: 8em;
+}
+.content-section { 
+margin: 1em;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.section-header {
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-weight: normal;
+ color:rgb(51, 50, 50) ;
+ text-align: center;
+ font-size: 2.5em;
+}
+.about-shop-image {
+float:right;
+height: 200px;
+width: 200px;
+margin: 15px;
+border-radius: 50%;
+}
+.main-footer {
+    background-color:rgba(240, 233, 218, 0.851) ;
+    background-image: url(backgroundd.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+    padding: .9em 0;
+}
+.main-footer-container {
+    display:flex;
+    align-items: center;
+}
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+.footer-nav li {
+    padding: 0 .5em;
+}
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+.btn-header {
+    margin:.5em 15% 2em 15%;
+    color: rgb(93, 91, 91);
+    border: 2px solid rgb(203, 151, 203);
+    border-radius: 0;
+    font-size: 1em;
+    font-weight: lighter;
+    padding-left: 2em ;
+    padding-right: 2em;
+}
+.btn-header:hover {
+    background-color:  rgb(169, 213, 199);
+}
+.btn-play {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid rgb(203, 151, 203);
+    color: rgb(93, 91, 91);
+    font-size: 4em;
+    border-radius: 50%;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+}
+.jewellery-row {
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+.jewellery-row:last-child{
+    border-bottom: none;
+}
+.jewellery-item{
+    display: inline-block;
+    padding-right: .5em;
+}
+.jw-name{
+    color:rgb(71, 43, 34);
+    font-weight: bold;
+    width: 15%;
+    margin-right: 3em;
+}
+.jw-type {
+    width: 20%;
+}
+.jw-price {
+    width: 40%;
+}
+.jw-btn {
+    max-width: 20%;
+}
+.btn-primary {
+ color:rgb(93, 91, 91);
+ background-color: rgba(250, 191, 169, 0.479);
+ border: none;
+ border-radius: .3em;
+ font-weight: bold;
+}
+.btn-primary:hover {
+background-color: rgb(169, 213, 199) ;
+}
+.shop-item {
+    margin: 30px;
+}
+.shop-item-title{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color:black;
+    margin-bottom: 15px;
+
+}
+.shop-item-img{
+    display:inline-block
+    height: 250px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.shopt-item-details {
+    display:flex;
+    align-items: center;
+    padding: 5px;
+}
+.shop-item-price {
+ flex-grow: 1;  
+ color: #000; 
+}
